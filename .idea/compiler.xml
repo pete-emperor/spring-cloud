@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo-eureka-client" />
+        <module name="demo-eureka-server" />
+        <module name="demo-serice-feign" />
+        <module name="demo-service-fegin-hystrix" />
+        <module name="demo-service-ribbon" />
+        <module name="demo-service-ribbon-hystrix" />
+        <module name="demo-service-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-cloud" target="1.8" />
+      <module name="demo-eureka-client" target="1.8" />
+      <module name="demo-eureka-feign-hystrix" target="1.8" />
+      <module name="demo-eureka-server" target="1.8" />
+      <module name="demo-serice-feign" target="1.8" />
+      <module name="demo-service-fegin-hystrix" target="1.8" />
+      <module name="demo-service-ribbon" target="1.8" />
+      <module name="demo-service-ribbon-hystrix" target="1.8" />
+      <module name="demo-service-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
